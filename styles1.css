@@ -139,3 +139,42 @@ a:hover {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+.aboutTopImage{
+  margin-top: 100px;
+  max-width: 200px;
+  height: auto;
+  border-radius: 100%;
+}
+.menuButton{
+  background-color: #30e3cb;
+  border-radius: 20px;
+  transition: 1s ease;
+  margin-top: 20px !important;
+  padding: 5px 10px;
+}
+.menuButton:hover{
+  background-color: #11999e;
+}
+#customers {
+  margin : 20px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
